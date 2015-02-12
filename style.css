@@ -1,0 +1,83 @@
+/*
+Theme Name: Amerigems 2014
+Description: Child theme that defines custom CSS and fields on Amerigems site
+Author: Eric Watkins
+Version: 0.1
+Template: edin
+*/
+
+
+@import url("../edin/style.css");
+
+@media screen and (min-width: 960px){
+    .site-title {
+
+    width:500px;
+
+    }
+}
+
+
+@media screen and (min-width: 600px){
+    h1 {
+
+    font-size: 3.5em;
+
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .social {
+    float:right;
+
+    }
+}
+.social a {
+    
+    margin-left: 10px;
+    
+}
+
+@media screen and (min-width: 600px) {
+    
+    .social {
+    margin-top: 2em;
+    }
+}
+
+.site-description {
+ display: inline; 
+    margin-top: 0px;
+    font-size: 1.25em;
+}
+.site-title {
+ margin-bottom: 0px;  
+ 
+}
+
+@media screen and (max-width: 480px) {
+    
+    
+    .site-description, .social {
+        text-align: center;
+        display: block;
+        width:80%;
+        margin:auto;
+    }
+   
+}
+
+
+table { 
+  border-collapse: collapse; 
+ }
+
+td {
+  border-bottom: 1pt solid black;
+
+
+}
+
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}
