@@ -36,12 +36,7 @@ $content = file_get_contents('http://www.kitco.com/texten/texten.html');
                                                              echo $buy_price;						
 	                                                    
                                                     }
-                                                  if(get_field('storyteller_phone')){
-                                                              $st_phone = get_field('storyteller_phone');
-                                                             echo '<p>'.$st_phone;
-                                                             echo '</p>';						
-	                                                     
-                                                    }
+                                               
                                                    
                                                 echo '</div>';    
                                                 
